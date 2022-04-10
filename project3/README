@@ -1,0 +1,11 @@
+TEST MSApp.c: 
+gcc -o MSApp MSApp.c -lpthread
+./MSApp
+10
+7 12 19 3 18 4 2 6 15 8
+
+TEST FJSApp-Quick.java: 
+java FJSApp-Quick.java
+
+TEST FJSApp-Merge.java: 
+java FJSApp-Merge.java

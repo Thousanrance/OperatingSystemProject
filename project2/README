@@ -1,0 +1,34 @@
+TEST simple-shell.c: 
+gcc -o shell simple-shell.c
+./shell
+ls
+ls &
+[enter]
+exit
+./shell
+!!
+ls
+!!
+exit
+./shell
+ls > out.txt
+exit
+./shell
+sort < in.txt
+exit
+./shell
+ls -l | less
+[q]
+exit
+
+TEST pid.c: 
+make
+sudo dmesg -c
+sudo insmod pid.ko
+dmesg
+ps 【记下bash的pid】
+echo "_ _ _ _" > /proc/pid 【填入bash的pid】
+cat /proc/pid
+sudo rmmod pid
+dmesg
+

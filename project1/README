@@ -1,0 +1,41 @@
+TEST simple.c: 
+lsmod
+make
+sudo dmesg -c
+sudo insmod simple.ko
+dmesg
+sudo rmmod simple
+dmesg
+
+修改Makefile文件：simple->hello
+
+TEST hello.c: 
+make
+sudo dmesg -c
+sudo insmod hello.ko
+dmesg
+cat /proc/hello
+sudo rmmod jiffies
+dmesg
+
+修改Makefile文件：hello->jiffies
+
+TEST jiffies.c: 
+make
+sudo dmesg -c
+sudo insmod jiffies.ko
+dmesg
+cat /proc/jiffies
+sudo rmmod jiffies
+dmesg
+
+修改Makefile文件：jiffies->seconds
+
+TEST seconds.c: 
+make
+sudo dmesg -c
+sudo insmod seconds.ko
+dmesg
+cat /proc/seconds
+sudo rmmod seconds
+dmesg

@@ -1,0 +1,27 @@
+Completing this project will require writing the following C files:
+
+schedule_fcfs.c
+schedule_sjf.c
+schedule_rr.c
+schedule_priority.c
+schedule_priority_rr.c
+
+The supporting files invoke the appropriate scheduling algorithm. 
+
+For example, to build the FCFS scheduler, enter
+
+make fcfs
+
+which builds the fcfs executable file.
+
+TEST: 
+make fcfs
+./fcfs schedule.txt
+make sjf
+./sjf schedule.txt
+make priority
+./priority schedule.txt
+make rr
+./rr schedule.txt
+make priority_rr
+./priority_rr schedule.txt
