@@ -1,0 +1,23 @@
+TEST allocator.c: 
+gcc -o allocator allocator.c
+./allocator 1048576
+
+RQ P1 10000 B
+RQ P2 20000 B
+RQ P3 30000 B
+RQ P4 40000 B
+STAT
+RL P2
+RQ P5 20001 F
+STAT
+RQ P6 10000 B
+RQ P7 10000 W
+RQ P8 10000 F
+STAT
+RL P6
+RL P3
+RL P5
+STAT
+C
+STAT
+X
