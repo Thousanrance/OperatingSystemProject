@@ -1,7 +1,7 @@
 # OperatingSystemProject
 2022春季学期 操作系统课程项目
 
-# 实验环境
+## 实验环境
 虚拟机软件：VirtualBox
 
 操作系统：Ubuntu 20.04
