@@ -1,0 +1,9 @@
+TEST vmm.c
+gcc -o vmm vmm.c
+./vmm addresses.txt
+
+gedit vmm.c
+修改 NUM_OF_FRAME
+
+gcc -o vmm vmm.c
+./vmm addresses.txt
