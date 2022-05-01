@@ -13,3 +13,5 @@
 Make：GNU Make 4.2.1
 
 java：openjdk version "17.0.2"
+
+Debugger：GNU gdb (Ubuntu 9.2-0ubuntu1~20.04.1) 9.2
