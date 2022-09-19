@@ -1,5 +1,5 @@
 # OperatingSystemProject
-2022春季学期 操作系统 课程项目
+2022春季学期 CS2302 操作系统 课程项目
 
 ## 实验环境
 虚拟机软件：VirtualBox
