@@ -1,5 +1,5 @@
 # OperatingSystemProject
-2022春季学期 CS2303 操作系统课程设计
+2021-2022-2 CS2303 操作系统课程设计
 
 ## 实验环境
 虚拟机软件：VirtualBox
